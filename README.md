@@ -12,3 +12,6 @@ Leetcode,GeeksForGeeks.
 
 **Goal**
 To develop strong problem-solving skills through consistent practice and gain a deeper understanding of Data Structures and Algorithms using Java.
+**TOPICS IN THIS REPO**
+LinkedList Implementation
+Stack Implementation
