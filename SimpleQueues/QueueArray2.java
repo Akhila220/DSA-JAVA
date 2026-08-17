@@ -25,7 +25,7 @@ class Queue{
             System.out.println("The queue is Empty cannot delete!!");
         }
         int x=arr[0];
-        for(int i=1;i<=size;i++){
+        for(int i=1;i<size;i++){
             arr[i-1]=arr[i];
         }
         size--;
@@ -50,3 +50,6 @@ class QueueArray2{
         q.display();
     }
 }
+/*
+Deque can be impoved circular array implementation
+*/
