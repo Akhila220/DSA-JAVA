@@ -1,0 +1,9 @@
+Tree Data Structure is a non-linear data structure in which a collection of elements known as nodes are connected to each other via edges such that there exists exactly one path between any two nodes.
+Binary Tree.
+
+A binary tree is a tree data structure where each node has at most two children. These two children are usually referred to as the left child and right child. 
+Example: Consider the tree below. Since each node of this tree has at most 2 children, it can be said that this tree is a Binary Tree.
+
+Binary Search Tree (BST) and its Variations: A BST is a binary tree where each node has at most two children, and for each node, the left child’s value is smaller than the node’s value, and the right child’s value is greater.
+Binary Indexed Tree (Fenwick Tree): A data structure that uses a binary tree to efficiently compute and update prefix sums in an array.
+Balanced Binary Tree: A binary tree where the difference in heights between the left and right subtrees of any node is minimal (often defined as at most 1). Examples of Balanced Binary Tree are AVL Tree, Red Black Tree and Splay Tree.
