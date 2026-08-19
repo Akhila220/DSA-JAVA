@@ -7,3 +7,173 @@ Example: Consider the tree below. Since each node of this tree has at most 2 chi
 Binary Search Tree (BST) and its Variations: A BST is a binary tree where each node has at most two children, and for each node, the left child’s value is smaller than the node’s value, and the right child’s value is greater.
 Binary Indexed Tree (Fenwick Tree): A data structure that uses a binary tree to efficiently compute and update prefix sums in an array.
 Balanced Binary Tree: A binary tree where the difference in heights between the left and right subtrees of any node is minimal (often defined as at most 1). Examples of Balanced Binary Tree are AVL Tree, Red Black Tree and Splay Tree.
+
+Before starting Tree Data Structure, you should be comfortable with these concepts:
+
+1. Basic programming concepts
+
+You should know:
+
+Variables and data types
+if/else, loops
+Methods/functions
+Classes and objects
+Constructors
+
+Since you're learning trees in Java, especially understand how to create and use classes.
+
+2. References in Java ⭐
+
+This is very important for trees.
+
+You should understand something like:
+
+class Node {
+    int data;
+    Node left;
+    Node right;
+}
+
+Here:
+
+data → stores the value
+left → reference to another Node
+right → reference to another Node
+
+You should be comfortable with:
+
+Node root = new Node(10);
+root.left = new Node(5);
+root.right = new Node(20);
+
+Think of it as:
+
+       10
+      /  \
+     5    20
+3. Linked List ⭐⭐⭐
+
+Since you already studied linked lists, this is a major prerequisite.
+
+A linked list:
+
+10 → 20 → 30 → null
+
+uses one reference:
+
+Node next;
+
+A tree uses multiple references:
+
+Node left;
+Node right;
+
+So you can think:
+
+Tree = nodes connected through references, just like a linked list, but with branching.
+
+4. Recursion ⭐⭐⭐
+
+This is probably the most important prerequisite.
+
+You should understand:
+
+What a recursive function is
+Base condition
+Recursive call
+How the call stack works
+
+For example:
+
+void print(int n) {
+    if (n == 0)
+        return;
+
+
+    System.out.println(n);
+    print(n - 1);
+}
+
+Tree traversal relies heavily on recursion.
+
+5. Stack concept
+
+You don't need advanced stack problems, but understand:
+
+push
+pop
+LIFO
+How function calls use the call stack
+
+This becomes useful when learning iterative tree traversal.
+
+6. Queue concept
+
+Since you've already been learning queues, you're in a good position.
+
+Queue is required for:
+
+Level Order Traversal / BFS
+
+Example:
+
+       1
+      / \
+     2   3
+    / \
+   4   5
+
+Level order:
+
+1 → 2 → 3 → 4 → 5
+
+A queue helps process nodes level by level.
+
+Your prerequisite path
+
+For your current stage, I'd recommend:
+
+Arrays
+   ↓
+Linked List
+   ↓
+Stack
+   ↓
+Queue
+   ↓
+Recursion ⭐
+   ↓
+Tree
+
+You don't need to master graphs before trees.
+
+Once these are comfortable, start Trees in this order:
+1. What is a Tree?
+2. Terminology
+   ├── Root
+   ├── Parent
+   ├── Child
+   ├── Sibling
+   ├── Leaf
+   ├── Ancestor
+   ├── Descendant
+   ├── Height
+   └── Depth
+
+
+3. Tree representation
+4. Binary Tree
+5. Creating a Binary Tree in Java
+6. Tree Traversals
+   ├── Preorder
+   ├── Inorder
+   ├── Postorder
+   └── Level Order
+
+
+7. Binary Search Tree (BST)
+8. BST insertion/search/deletion
+9. Balanced Trees
+10. AVL Tree
+11. Heap
+12. B-Tree / B+ Tree
