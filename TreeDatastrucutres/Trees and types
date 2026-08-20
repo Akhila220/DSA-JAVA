@@ -177,3 +177,8 @@ Once these are comfortable, start Trees in this order:
 10. AVL Tree
 11. Heap
 12. B-Tree / B+ Tree
+
+Recursion for tress:
+Tail recusrion head reusrsion;
+recurrence relation 
+Call Stack
