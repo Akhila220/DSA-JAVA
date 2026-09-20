@@ -1,0 +1,38 @@
+1. Tree basics
+   ↓
+2. Node declaration & construction
+   ↓
+3. Display
+   ↓
+4. Recursion on trees
+   ↓
+5. Traversals
+   ├── Preorder ✅
+   ├── Inorder ✅
+   └── Postorder ✅
+   ↓
+6. Level Order Traversal
+   ↓
+7. Height / Depth of Binary Tree
+   ↓
+8. Count total nodes
+   ↓
+9. Sum of all nodes
+   ↓
+10. Find maximum / minimum
+   ↓
+11. Search for a value
+   ↓
+12. Count leaf nodes
+   ↓
+13. Count internal nodes
+   ↓
+14. Check whether two trees are identical
+   ↓
+15. Mirror / Invert a binary tree
+   ↓
+16. Diameter of a binary tree
+   ↓
+17. Balanced binary tree
+   ↓
+18. Binary Search Tree (BST)
