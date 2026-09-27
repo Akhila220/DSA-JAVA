@@ -8,7 +8,6 @@ class Node{
 }
 class RotateList{
     public static Node rotate(Node head,int k){
-        k=k%n;
         Node temp=head;
         Node pointer;
         while(k>=1){
