@@ -1,4 +1,8 @@
+/*
+   --- As LinkedList Cannot be traversed in both directions so the brute force we are using another array/arraylist and we are doing 
+   we can do it in  better sapace rather than this i.e; optimal approach !!!
 
+*/
 import java.util.ArrayList;
 class Node{
   Node next;
